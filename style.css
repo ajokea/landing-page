@@ -132,3 +132,35 @@ p {
     font-weight: bold;
     margin-left: auto;
 }
+
+.action {
+    margin: 100px 280px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action div {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.action .call {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.action button {
+    background-color: #3882F6;
+    border: solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 5px 25px;
+    align-self: flex-end;
+}
